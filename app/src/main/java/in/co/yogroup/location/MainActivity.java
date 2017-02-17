@@ -18,7 +18,8 @@ import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
- GoogleApiClient.OnConnectionFailedListener, LocationListener {
+ GoogleApiClient.OnConnectionFailedListener, LocationListener
+{
     TextView txtOutputLat, txtOutputLon;
     Location mLastLocation;
     private GoogleApiClient mGoogleApiClient;
