@@ -20,7 +20,7 @@ import com.google.android.gms.location.LocationServices;
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
  GoogleApiClient.OnConnectionFailedListener, LocationListener
 {
-    TextView txtOutputLat, txtOutputLon;
+    TextView txtOutputLat,txtOutputLon;
     Location mLastLocation;
     private GoogleApiClient mGoogleApiClient;
     private LocationRequest mLocationRequest;
